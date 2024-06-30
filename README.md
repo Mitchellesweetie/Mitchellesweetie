@@ -13,5 +13,6 @@ What I'm Up To
     😊 Willing to contribute to open-source projects.
 
 Connect with Me
-[https://mitchellesweetie.github.io/portfolio2/]
-<a href="https://readme.com/" target="_blank">ReadMe</a>
+<a href="www.linkedin.com/in/mitchelle-ngoli-134243211" target="_blank">LinkedIn</a>
+
+<a href="https://mitchellesweetie.github.io/portfolio2/" target="_blank">Portfolio</a>
