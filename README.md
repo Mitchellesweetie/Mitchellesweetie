@@ -14,9 +14,9 @@ What I'm Up To
 
 Connect with Me
 <ul>
-    <li><a href="www.linkedin.com/in/mitchelle-ngoli-134243211/" target="_blank">LinkedIn</a>
+    <li><a href="https://www.linkedin.com/in/mitchelle-ngoli-134243211/" target="_blank">LinkedIn</a>
 </li>
-    <li><a href="https://mitchellesweetie.github.io/portfolio2/" target="_blank">Portfolio</a>
+    <li><a href="https://mitchellesweetie.github.io/Mitchellesweetie/" target="_blank">Portfolio</a>
 </li>
 </ul>
 
