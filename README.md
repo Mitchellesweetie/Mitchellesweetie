@@ -1,6 +1,6 @@
 
-johnkaizer/README.md
-Hi there! 👋 I'm John Kaiser
+portfolio2/README.md
+Hi there! 👋 I'm Mitchelle Mwachoo
 
 I'm a software engineer passionate about back-end development and mobile app development. Here are a few technologies I enjoy working with:
 
