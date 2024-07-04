@@ -1,3 +1,4 @@
+/* @media (max-width:1281px) and (max-width:1025px) and (max-width:1848px){ */
 *{
 	margin: 0;
 	box-sizing: border-box;
@@ -8,24 +9,28 @@ body{
 .top{
 	height: 100vh;
 	background:url(andbg.jpg);
-	justify-content: center;
-	display:flex;
+	top: 0;
 }
 .topnav a{
 	overflow: hidden;
 	float: right;
 	display: block;
-	padding: 30px 30px;
+	padding: 16px 16px;
 	font-size: 22px;
 	color: white;
 	font-weight: 50;
-	text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+
+}
+.closebtn,.openbtn{
+	visibility: hidden;
 
 }
 .topnav a:hover{
-	background:black;
 	color: white;
-	padding: 14px 14px;
+	border-bottom: 3px solid red;
 }
 .center{
 	float: left;
@@ -90,8 +95,6 @@ body{
 	height: 400px;
 	width: 400px;
 	float: left;
-
-
 }
 .profile-details{
 	height: 200px;
@@ -122,7 +125,6 @@ hr{
 	background: #cab3b3;
 	color: #807777;
 	height: 600px;
-	
 }
 
 .contacts{
@@ -130,7 +132,7 @@ hr{
 	padding: 30px;
 }
 .project_one{
-	width: 100px;
+	width: 300px;
 	height: 400px;
 	display: flex;
 	padding: 20px;
@@ -139,7 +141,7 @@ hr{
 
 }
 .project_two{
-	width: 100px;
+	width: 300px;
 	height: 400px;
 	display: flex;
 	margin: 0px;
@@ -155,7 +157,7 @@ hr{
 }
 .project_two img,.project_one img{
 	height: 400px;
-	width: 250px;
+	width: 450px;
 	padding: 20px;
 }
 .email{
@@ -200,272 +202,236 @@ div button{
 div button:hover{
 	background: #8a7373;
 }
-@media screen and (max-device-width: 480px) {
-    .paragraph {
-        height: auto;
-        background: #302f2f;
-        text-align: center;
-        font-size: 1rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+   /* Media Query for Mobile Devices */
+@media (max-width:480px) {
+.top{
+		background:url(andbg.jpg);
+		top: 0;
+		object-fit: fill;
+		border: 1px solid red;
+		}
+.topnav a{
+		visibility: hidden;
+	}
+.openbtn{
+			visibility: visible;
+			position: absolute;
+			left: 20px;
+			top: 20px;
+			height: 70px;
+			width: 100px;
+		}
 
-    .profile-details img {
-        border-radius: 50%;
-        margin-left: 10px;
-        height: 150px;
-        width: 150px;
-        float: none;
-        display: block;
-        margin: 0 auto;
-    }
+.top .text{
 
-    .profile-details {
-        height: auto;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 1rem;
-        margin: 20px;
-        text-align: center;
-    }
+	float: left;
+	font-size: 15px;
+	font-weight: 100;
+	text-align: center;
+	text-decoration: none;
+	
 
-    div button {
-        height: 35px;
-        width: 100%;
-        background: #3d3d3d;
-        border: solid #3d3d3d;
-    }
-
-    .background {
-        height: auto;
-    }
-
-    .education {
-        margin: 20px;
-        text-align: center;
-    }
-
-    hr {
-        background: rgb(3, 184, 3);
-        height: 5px;
-        width: 50px;
-        margin: 0 auto;
-    }
-
-    .projects {
-        background: #cab3b3;
-        color: #807777;
-        height: auto;
-    }
-
-    .contacts {
-        height: auto;
-        padding: 20px;
-    }
-
-    .project_one,
-    .project_two {
-        width: 100%;
-        height: auto;
-        display: block;
-        padding: 10px;
-        margin: 0 auto;
-    }
-
-    .project_one a,
-    .project_two a {
-        display: block;
-        text-decoration: none;
-        padding: 5px;
-    }
-
-    .project_two img,
-    .project_one img {
-        height: auto;
-        width: 100%;
-        padding: 10px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .empty {
-        padding: 20px;
-        margin: 20px;
-        background: white;
-        text-align: center;
-        font-size: 1rem;
-        color: #000;
-    }
-
-    .empty div {
-        padding: 20px;
-    }
-
-    .email {
-        align-items: center;
-        font-size: 1rem;
-        padding: 15px;
-        background: rgb(20, 19, 19);
-        color: white;
-        text-align: center;
-    }
-
-    .email form {
-        font-size: 1rem;
-        height: auto;
-        width: 100%;
-        display: inline-block;
-        padding: 20px;
-        background: rgb(20, 19, 19);
-        color: white;
-        text-align: center;
-    }
-
-    .email div {
-        padding: 15px;
-    }
-
-    .email input {
-        width: 100%;
-        height: 50px;
-    }
-
-    div textarea {
-        height: 200px;
-        width: 100%;
-    }
+		}
+.top .text a{
+	display: grid;
+	grid-template-columns: 3fr;
+}
+.paragraph{
+	background: #3d3d3d;
+	height: 90vh;
 }
 
-@media screen and (min-device-width:481px) and (max-device-width: 768px) {
-    .paragraph {
-        height: auto;
-        background: #302f2f;
-        text-align: center;
-        font-size: 1rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+.profile-details{
+	height: 100rem;
+	padding: 0;
+}
+.profile-details img{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	padding: 1px;
+}
+	
+.profile-details button{
+			visibility: hidden;
+		}
+.projects h5{
+	float: left;
+	position: absolute;
+	left: 0;
+}
 
-    .profile-details img {
-        border-radius: 50%;
-        margin-left: 10px;
-        height: 150px;
-        width: 150px;
-        float: none;
-        display: block;
-        margin: 0 auto;
-    }
+.background{
+		border: 1px solid black;
+		height: 53rem;
+		font-size: 15px;
+		color: black;
+		font-weight: 100;
+		
+		}
+.email{
+	align-items: center;
+	font-size: 20px;
+	margin: 0;
+	padding: 30px;
+	background: rgb(20, 19, 19);
+	color: white;
+	text-align: center;
+}
+.email form{
+	font-size: 20px;
+	height: 800px;
+	width: 150px;
+	justify-content: center;
+	display: inline-block;
+	margin: 0;
+	padding: 30px;
+	background: rgb(20, 19, 19);
+	color: white;
+	text-align: center;
+}
 
-    .profile-details {
-        height: auto;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 1rem;
-        margin: 20px;
-        text-align: center;
-    }
+}
+/* Media Query for low resolution  Tablets, Ipads */
 
-    div button {
-        height: 35px;
-        width: 100%;
-        background: #3d3d3d;
-        border: solid #3d3d3d;
-    }
+@media (max-width:481px )and (max-width: 761px) {
+	.topnav a{
+		visibility: hidden;
+	}
+	.openbtn{
+		visibility: visible;
+		position: absolute;
+		left: 20px;
+		top: 20px;
 
-    .background {
-        height: auto;
-    }
+	}
+.text{
+		height: 250px;
+		font-size: 25px;
+		font-weight: 30px;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		flex-direction: row;
+		justify-content: space-around;
+		border: 1px solid rgb(172, 26, 26);
+	}
 
-    .education {
-        margin: 20px;
-        text-align: center;
-    }
+.paragraph{
+	height: 60vh;
+	background: #302f2f;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    hr {
-        background: rgb(3, 184, 3);
-        height: 5px;
-        width: 50px;
-        margin: 0 auto;
-    }
+}
+.profile-details{
+	height: 20rem;
+	color: white;
+	font-size: 12px;
+	font-weight: 100px;
+	border: 1px solid black;
+	float: inline-end;
 
-    .projects {
-        background: #cab3b3;
-        color: #807777;
-        height: auto;
-    }
+}
 
-    .contacts {
-        height: auto;
-        padding: 20px;
-    }
+.profile-details img{
 
-    .project_one,
-    .project_two {
-        width: 100%;
-        height: auto;
-        display: block;
-        padding: 10px;
-        margin: 0 auto;
-    }
+		border-radius: 300px;
+		position: relative;
+		padding: 30px;
+		height: 250px;
+		width: 250px;
+		float: left;
+		border: 1px solid black;
 
-    .project_one a,
-    .project_two a {
-        display: block;
-        text-decoration: none;
-        padding: 5px;
-    }
+	}
+.background{
+	height: 53rem;
+	font-size: 15px;
+	color: black;
+	font-weight: 100;
 
-    .project_two img,
-    .project_one img {
-        height: auto;
-        width: 100%;
-        padding: 10px;
-        display: block;
-        margin: 0 auto;
-    }
+}
+.education hr{
+	height: 5px;
+}
+.projects{
+	height: 70rem;
+	border: 1px solid black;
+	background: #cab3b3;
+	color: #807777;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.empty{
+	padding: 30px;
+	margin: 30px;
+	background: white;
+	height: auto;
+	text-align: center;
+	justify-content: center;
+	font-size: 30px;
+	font-style: 20px;
+	color: #000;
+}
+.empty div{
+	padding: 20px;
 
-    .empty {
-        padding: 20px;
-        margin: 20px;
-        background: white;
-        text-align: center;
-        font-size: 1rem;
-        color: #000;
-    }
+}
 
-    .empty div {
-        padding: 20px;
-    }
+.email{
+	align-items: center;
+	font-size: 20px;
+	margin: 0;
+	padding: 30px;
+	background: rgb(20, 19, 19);
+	color: white;
+	text-align: center;
+}
+.email form{
+	font-size: 20px;
+	height: 800px;
+	width: 500px;
+	justify-content: center;
+	display: inline-block;
+	margin: 0;
+	padding: 30px;
+	background: rgb(20, 19, 19);
+	color: white;
+	text-align: center;
+}
+.email div{
+	padding: 30px;
+}
 
-    .email {
-        align-items: center;
-        font-size: 1rem;
-        padding: 15px;
-        background: rgb(20, 19, 19);
-        color: white;
-        text-align: center;
-    }
+.email input{
+	width: 350px;
+	height: 50px;
+}
+div textarea{
+	height: 100px;
+	width: 350px;
+}
+div button{
+	height: 70px;
+	width: 300px;
+	background: #3d3d3d;
+	border: solid #3d3d3d;
+}
+div button:hover{
+	background: #8a7373;
+}
 
-    .email form {
-        font-size: 1rem;
-        height: auto;
-        width: 100%;
-        display: inline-block;
-        padding: 20px;
-        background: rgb(20, 19, 19);
-        color: white;
-        text-align: center;
-    }
+        /* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {}
+        /* Media Query for Laptops and Desktops */
 
-    .email div {
-        padding: 15px;
-    }
+@media (min-width: 1025px) and (max-width: 1280px){}
 
-    .email input {
-        width: 100%;
-        height: 50px;
-    }
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {}
 
-    div textarea {
-        height: 200px;
-        width: 100%;
-    }
+	
 }

@@ -10,7 +10,10 @@
 </head>
 <body>
 	<div class="top">
+
 		<div class="topnav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
 		<a href="#contact">Contact</a>
 		<a href='#about'>About</a>
 		<a href="#resume">Resume</a>
@@ -18,7 +21,8 @@
 		<a href="#index">Home</a>
 
 	</div>
-</div>
+	<button class="openbtn" onclick="openNav()">☰ Menu</button>  
+
 
 	<div id="index" class="text">
 		<p><b>I'm Mitchelle Mwachoo</b></p>
@@ -28,6 +32,7 @@
 		<a href="https://www.linkedin.com/in/mitchelle-ngoli-134243211/"><img src="linked.png"/></a>
 	</p>
 	</div>
+</div>
 	<div id="about" class="paragraph">
 	
 		<div class="profile-details">
@@ -86,13 +91,12 @@
 		<h5>Some of my personal Project</h5>
 		<div class="project_one">
 			<a href="https://github.com/Mitchellesweetie/soma">
-			<img src="pe.jpg"/>
-			<img src="pe2.jpg"/></a>
+			<img src="smis.jpg"/>
+			</a>
 		</div>
 		<div class="project_two">
 			<a href="https://github.com/Mitchellesweetie/sms">
-			<img src="login.png"/>
-			<img src="p2.png"/></a>
+			<img src="p3.png"/></a>
 		</div>
 	   
 
@@ -146,6 +150,16 @@
 		</div>
 
 	</div>
+
+<script>
+	function openNav() {
+	  document.getElementsByClassName("topnav").style.width = "250px";
+	}
+	
+	function closeNav() {
+	  document.getElementsByClassName("topnav").style.width = "0";
+	}
+	</script>
 		
 	
 	
