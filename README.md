@@ -17,6 +17,7 @@ Connect with Me
     <li><a href="https://www.linkedin.com/in/mitchelle-ngoli-134243211/" target="_blank">LinkedIn</a>
 </li>
     <li><a href="https://mitchellesweetie.github.io/Mitchellesweetie/" target="_blank">Portfolio</a>
+        //still working on the mobile view
 </li>
 </ul>
 
