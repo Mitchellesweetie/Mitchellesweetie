@@ -1,7 +1,103 @@
+@media (max-width:600px) {
+	*{
+		box-sizing: border-box;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		margin: 20px;
+
+	}
+  .top{
+	text-align: center;
+	object-fit: cover;
+	/* overflow: hidden; */
+  }
+.topnav a{
+	visibility: hidden;
+	
+}
+.top .text{
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-weight: 100;
+	height: 300px;
+	width: 550px;
+	margin-left: 2px;
+}
+.paragraph{
+	height: 450px;
+	background: #302f2f;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 10px;
+	margin: 0px;
+
+}
+.paragraph .profile-details{
+	height: 370px;
+	font-size: 10px;
+	font-weight: 10px;
+	margin-top: 20px;
+	padding: 20px;
+
+
+}
+.paragraph .profile-details img{
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 150px;}
+.profile-details button{
+	height: 70px;
+	width: 150px;
+	float: right;
+	margin-right: 10px;
+}
+.background{
+	background:white;
+	height: auto;
+
+}
+.education{
+	margin: 50px;
+	color: black;
+	font-size: 20px;
+	font-weight: 100;
+}
+hr{
+	background: rgb(3, 184, 3);
+	height: 5px;
+	width: 100px;
+
+}
+.projects{
+	height: 700px;
+	margin: 5px;
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 2px;
+}
+.project_one,.project_two{
+	height: 200px;
+
+}
+
+
+
+
+
+
+	
+	
+}
+
+
 /* @media (max-width:1281px) and (max-width:1025px) and (max-width:1848px){ */
 *{
 	margin: 0;
 	box-sizing: border-box;
+
 }
 body{	
 	color: white;
@@ -10,6 +106,7 @@ body{
 	height: 100vh;
 	background:url(andbg.jpg);
 	top: 0;
+
 }
 .topnav a{
 	overflow: hidden;
@@ -22,6 +119,7 @@ body{
     text-align: center;
     text-decoration: none;
     border-bottom: 3px solid transparent;
+
 
 }
 .closebtn,.openbtn{
@@ -124,7 +222,7 @@ hr{
 .projects{
 	background: #cab3b3;
 	color: #807777;
-	height: 600px;
+	height: 900px;
 }
 
 .contacts{
@@ -171,8 +269,8 @@ hr{
 }
 .email form{
 	font-size: 20px;
-	height: 800px;
-	width: 700px;
+	height: auto;
+	width: 500px;
 	justify-content: center;
 	display: inline-block;
 	margin: 0;
@@ -191,37 +289,159 @@ hr{
 }
 div textarea{
 	height: 200px;
-	width: 500px;
+	width: 300px;
 }
 div button{
 	height: 70px;
-	width: 300px;
+	width: 200px;
 	background: #3d3d3d;
 	border: solid #3d3d3d;
 }
 div button:hover{
 	background: #8a7373;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Media Query for Mobile Devices 
+@media (min-width:320px)and(max-width:380px){
+
+.top{
+	background:url(andbg.jpg);
+	top: 0;
+	object-fit: cover;
+	}
+	body {
+		font-family: "Lato", sans-serif;
+		  }
+		  
+.topnav  {
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			height: 250px;
+			top: 0;
+			left: 0;
+			background-color: #111;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+		  }
+		  
+.topnav a {
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #818181;
+			display: block;
+			transition: 0.3s;
+		  }
+		  
+.topnav a:hover {
+			color: #f1f1f1;
+		  }
+		  
+.topnav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+		  }
+		  
+.openbtn {
+			font-size: 20px;
+			cursor: pointer;
+			background-color: #111;
+			color: white;
+			padding: 10px 15px;
+			border: none;
+		  }
+		  
+.openbtn:hover {
+			background-color:#444;
+		  }
+.paragraph{
+	height: 30rem;
+	background: red;
 }
-   /* Media Query for Mobile Devices */
-@media (max-width:480px) {
+
+	
+}  */
+/* @media (min-width:412px) and (max-width:480px) {
 .top{
 		background:url(andbg.jpg);
 		top: 0;
-		object-fit: fill;
-		border: 1px solid red;
+		object-fit: cover;
 		}
-.topnav a{
-		visibility: hidden;
-	}
-.openbtn{
-			visibility: visible;
+body {
+		font-family: "Lato", sans-serif;
+		  }
+		  
+.topnav  {
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			height: 250px;
+			top: 0;
+			left: 0;
+			background-color: #111;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+		  }
+		  
+.topnav a {
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #818181;
+			display: block;
+			transition: 0.3s;
+		  }
+		  
+.topnav a:hover {
+			color: #f1f1f1;
+		  }
+		  
+.topnav .closebtn {
 			position: absolute;
-			left: 20px;
-			top: 20px;
-			height: 70px;
-			width: 100px;
-		}
-
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+		  }
+		  
+.openbtn {
+			font-size: 20px;
+			cursor: pointer;
+			background-color: #111;
+			color: white;
+			padding: 10px 15px;
+			border: none;
+		  }
+		  
+.openbtn:hover {
+			background-color:#444;
+		  }
 .top .text{
 
 	float: left;
@@ -262,7 +482,7 @@ div button:hover{
 }
 
 .background{
-		border: 1px solid black;
+		/* border: 1px solid black; 
 		height: 53rem;
 		font-size: 15px;
 		color: black;
@@ -294,7 +514,7 @@ div button:hover{
 }
 /* Media Query for low resolution  Tablets, Ipads */
 
-@media (max-width:481px )and (max-width: 761px) {
+/*@media (min-width:481px )and (max-width: 768px) {
 	.topnav a{
 		visibility: hidden;
 	}
@@ -314,11 +534,11 @@ div button:hover{
 		text-decoration: none;
 		flex-direction: row;
 		justify-content: space-around;
-		border: 1px solid rgb(172, 26, 26);
-	}
+		/* border: 1px solid rgb(172, 26, 26); */
+	/* }
 
 .paragraph{
-	height: 60vh;
+	height: 20rem;
 	background: #302f2f;
 	text-align: center;
 	font-size: 10px;
@@ -327,12 +547,12 @@ div button:hover{
 
 }
 .profile-details{
-	height: 20rem;
+	height: 10rem;
 	color: white;
 	font-size: 12px;
 	font-weight: 100px;
-	border: 1px solid black;
-	float: inline-end;
+	/* border: 1px solid black; */
+	/* float: inline-end;
 
 }
 
@@ -344,7 +564,7 @@ div button:hover{
 		height: 250px;
 		width: 250px;
 		float: left;
-		border: 1px solid black;
+		/* border: 1px solid black; 
 
 	}
 .background{
@@ -359,7 +579,6 @@ div button:hover{
 }
 .projects{
 	height: 70rem;
-	border: 1px solid black;
 	background: #cab3b3;
 	color: #807777;
 	display: grid;
@@ -424,14 +643,14 @@ div button:hover{
 	background: #8a7373;
 }
 
-        /* Media Query for Tablets Ipads portrait mode */
+        /* Media Query for Tablets Ipads portrait mode 
 @media (min-width: 768px) and (max-width: 1024px) {}
-        /* Media Query for Laptops and Desktops */
+        /* Media Query for Laptops and Desktops 
 
 @media (min-width: 1025px) and (max-width: 1280px){}
 
-        /* Media Query for Large screens */
+        /* Media Query for Large screens 
         @media (min-width: 1281px) {}
 
 	
-}
+}  */
