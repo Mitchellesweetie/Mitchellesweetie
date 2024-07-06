@@ -9,6 +9,7 @@
 	text-align: center;
 	object-fit: cover;
 	background-repeat: no-repeat;
+	background-size: auto auto;
 	font-family: "Poppins", sans-serif;
 	/* overflow: hidden; */
   }
@@ -30,18 +31,17 @@
 .paragraph{
 	height: 400px;
 	background: #302f2f;
-	text-align: center;
-	font-size: 10px;
-	font-weight: 10px;
+	font-size: 8px;
+	font-weight: 8px;
 	margin: 0px;
 
 }
 .paragraph .profile-details{
 	height: 370px;
-	font-size: 10px;
-	font-weight: 10px;
-	margin-top: 20px;
-	padding: 1px;
+	font-size: 8px;
+	font-weight: 8px;
+	margin-top: 8px;
+	padding: 0;
 
 
 }
@@ -85,7 +85,12 @@ hr{
 	row-gap: 2px;
 }
 .project_one,.project_two{
-	height: 200px;
+	height: 250px;
+
+}
+.project_one img,.project_two img{
+	height: 250px;
+	width: 250px;
 
 }
 .email form{
