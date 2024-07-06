@@ -259,7 +259,7 @@ hr{
 }
 .project_two img,.project_one img{
 	height: 300px;
-	width: 350px;
+	/* width: 350px; */
 	padding: 20px;
 }
 .email{
