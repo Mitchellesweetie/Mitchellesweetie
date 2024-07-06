@@ -107,7 +107,8 @@ body{
 .top{
 	height: 100vh;
 	background:url(andbg.jpg);
-	object-fit: cover;
+	background-repeat: no-repeat;	
+	object-fit: contain;
 	top: 0;
 
 }
