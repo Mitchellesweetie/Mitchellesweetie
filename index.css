@@ -1,5 +1,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 428px) {
+  html,body{
+	overflow-x: hidden;
+
+  }
 
   .top{
 	text-align: center;
@@ -43,7 +47,7 @@
 }
 .paragraph .profile-details img{
 	height: 200px;
-	width: 200px;
+	width: 100px;
 	float: left;
 	margin-left: 10px;
 	border-radius: 150px;}
@@ -102,8 +106,9 @@ hr{
 	font-family: "Poppins", sans-serif;
 
 }
-body{	
+html,body{	
 	color: white;
+	overflow-x: hidden;
 }
 .top{
 	height: 90vh;
