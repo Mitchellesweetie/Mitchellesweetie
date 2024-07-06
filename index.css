@@ -88,14 +88,44 @@ hr{
 	height: 200px;
 
 }
+.email form{
+	font-size: 20px;
+	height: 700px;
+	width: 400px;
+	overflow: hidden;
+	justify-content: center;
+	display: inline-block;
+	margin-left: 30px;
+	margin: 0;
+	padding: 30px;
+	background: rgb(20, 19, 19);
+	color: white;
+	text-align: center;
+}
+.email div{
+	padding: 20px;
+}
+
+.email input{
+	width: 150px;
+	height: 30px;
+}
+div textarea{
+	height: 150px;
+	width: 150px;
+}
+div button{
+	height: 50px;
+	width: 100px;
+	background: #3d3d3d;
+	border: solid #3d3d3d;
+}
+div button:hover{
+	background: #8a7373;
+ }
 
 
 
-
-
-
-	
-	
 }
 
 
@@ -279,7 +309,7 @@ hr{
 .email form{
 	font-size: 20px;
 	height: 800px;
-	width: 500px;
+	width: 450px;
 	overflow: hidden;
 	justify-content: center;
 	display: inline-block;
@@ -295,7 +325,7 @@ hr{
 }
 
 .email input{
-	width: 350px;
+	width: 250px;
 	height: 50px;
 }
 div textarea{
@@ -304,7 +334,7 @@ div textarea{
 }
 div button{
 	height: 70px;
-	width: 200px;
+	width: 150px;
 	background: #3d3d3d;
 	border: solid #3d3d3d;
 }
