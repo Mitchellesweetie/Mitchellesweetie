@@ -1,19 +1,22 @@
 
-@media screen and (min-width: 320px) and (max-width: 428px) {
+@media screen and (min-width: 320px) and (max-width:428px) {
   html,body{
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
+	font-size: 10px;
 
   }
-
+path{
+	width: 30%;
+}
   .top{
 	height: 100vh;
 	width: 100%;
 	text-align: center;
 	object-fit: cover;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	font-family: "Poppins", sans-serif;
 	/* overflow: hidden; */
   }
@@ -29,11 +32,12 @@
 	font-size: 20px;
 	font-weight: 100;
 	height: 300px;
-	width: 550px;
-	margin-left: 2px;
+	width: 300px;
+	margin: 20px;
+	padding: 0 10px;
+	box-sizing: border-box;
 }
 .paragraph{
-	height: 400px;
 	background: #302f2f;
 	font-size: 8px;
 	font-weight: 8px;
@@ -41,11 +45,10 @@
 
 }
 .paragraph .profile-details{
-	height: 370px;
+	height: 400px;
 	font-size: 8px;
 	font-weight: 8px;
-	margin-top: 8px;
-	padding: 0;
+	padding: 30px;
 
 
 }
@@ -68,7 +71,7 @@
 
 }
 .education{
-	margin: 50px;
+	margin: 70px;
 	color: black;
 	font-size: 20px;
 	font-weight: 100;
@@ -99,14 +102,12 @@ hr{
 }
 .email form{
 	font-size: 20px;
-	height: 700px;
-	width: 400px;
 	overflow: hidden;
 	justify-content: center;
 	display: inline-block;
 	margin-left: 30px;
 	margin: 0;
-	padding: 30px;
+	padding: 10px;
 	background: rgb(20, 19, 19);
 	color: white;
 	text-align: center;
@@ -124,8 +125,8 @@ div textarea{
 	width: 150px;
 }
 div button{
-	height: 50px;
-	width: 100px;
+	height: 30px;
+	width: 70px;
 	background: #3d3d3d;
 	border: solid #3d3d3d;
 }
@@ -149,12 +150,18 @@ html,body{
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+
 }
 .top{
 	height: 90vh;
 	background:url(andbg.jpg);
 	background-repeat: no-repeat;	
-	object-fit: contain;
+	object-fit: cover;
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+	width: 100%;
 	top: 0;
 
 }
@@ -172,6 +179,7 @@ html,body{
 
 
 }
+
 .closebtn,.openbtn{
 	visibility: hidden;
 
@@ -191,17 +199,18 @@ html,body{
 .text{
 	top: 300px;
 	position: absolute;
-	font-size: 80px;
+	font-size: 50px;
 	font-weight: 70px;
 	margin-left: 500px;
 	color: white;
-}
+	overflow-wrap: break-word;
+	word-wrap: break-word;}
 .text img{
 	height: 70px;
 	width: 70px;
 }
 .paragraph{
-	height: 60vh;
+	height: auto;
 	background: #302f2f;
 	text-align: center;
 	font-size: 10px;
@@ -210,8 +219,8 @@ html,body{
 }
 
 .empty{
-	padding: 30px;
-	margin: 30px;
+	padding: 10px;
+	margin: 20px;
 	background: white;
 	height: auto;
 	text-align: center;
@@ -244,13 +253,12 @@ html,body{
 	float: left;
 }
 .profile-details{
-	height: 200px;
+	height: 500px;
 	float: right;
+	background: #302f2f;
 	color: white;
 	font-size: 20px;
 	font-weight: 300px;
-	margin: 50px;
-	margin-top: 150px;
 
 }
 .background{
@@ -311,27 +319,30 @@ hr{
 	align-items: center;
 	font-size: 20px;
 	margin: 0;
-	padding: 30px;
+	padding: 20px;
 	background: rgb(20, 19, 19);
 	color: white;
 	text-align: center;
+	box-sizing: border-box;
 }
 .email form{
 	font-size: 20px;
-	height: 800px;
-	width: 450px;
+	height: auto;
+	width: auto;
 	overflow: hidden;
 	justify-content: center;
 	display: inline-block;
+	border: 1px solid white;
 	margin-left: 30px;
 	margin: 0;
-	padding: 30px;
+	padding: 0 10px;
 	background: rgb(20, 19, 19);
 	color: white;
 	text-align: center;
 }
 .email div{
 	padding: 20px;
+	box-sizing: border-box;
 }
 
 .email input{
