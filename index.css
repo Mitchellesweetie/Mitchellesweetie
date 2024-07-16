@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 320px) and (max-width:428px) {
+@media screen and (min-width: 320px) and (max-width:480px) {
   html,body{
 	overflow-x: hidden;
 	margin: 0;
@@ -49,6 +49,8 @@ path{
 	font-size: 8px;
 	font-weight: 8px;
 	padding: 30px;
+	padding-top: 10px;
+
 
 
 }
@@ -58,16 +60,21 @@ path{
 	float: left;
 	margin-left: 10px;
 	border-radius: 150px;}
-.profile-details button{
-	height: 50px;
-	width: 100px;
+.profile-details .resume{
+	height: 40px;
+	width: auto;
 	float: right;
 	margin-top: 0;
 	margin-right: 10px;
+	font-size: 10px;
 }
 .background{
 	background:white;
 	height: auto;
+	margin: 10px;
+	font-size: 14px;
+	font-weight: 16px;
+
 
 }
 .education{
@@ -137,9 +144,740 @@ div button:hover{
 
 
 }
+@media screen and (min-width:481px) and (max-width:768px){
+	html,body{
+		overflow-x: hidden;
+		margin: 0;
+		padding: 0;
+		font-size: 10px;
+	
+	  }
+	path{
+		width: 30%;
+	}
+	  .top{
+		height: 100vh;
+		width: 100%;
+		text-align: center;
+		object-fit: cover;
+		background-repeat: no-repeat;
+		background-size: contain;
+		font-family: "Poppins", sans-serif;
+		/* overflow: hidden; */
+	  }
+	  .topnav a{
+		visibility: hidden;
+	
+	
+	}
+	.top .text{
+		text-decoration: none;
+		color: white;
+		position: absolute;
+		font-size: 20px;
+		font-weight: 100;
+		height: 300px;
+		width: 300px;
+		margin: 20px;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.paragraph{
+		background: #302f2f;
+		font-size: 8px;
+		font-weight: 8px;
+		margin: 0px;
+	
+	}
+	.paragraph .profile-details{
+		height: 300px;
+		font-size: 8px;
+		font-weight: 8px;
+		padding: 30px;
+		padding-top: 50px;
+
+	
+	
+	}
+	.paragraph .profile-details img{
+		height: 200px;
+		width: 200px;
+		float: left;
+		margin-left: 10px;
+		border-radius: 150px;}
+	.profile-details .resume{
+		height: 40px;
+		width: auto;
+		float: right;
+		margin-top: 0;
+		margin-right: 10px;
+		font-size: 10px;
+	}
+	.background{
+		background:white;
+		height: auto;
+	
+	}
+	.education{
+		margin: 70px;
+		color: black;
+		font-size: 20px;
+		font-weight: 100;
+		text-decoration: none;
+	
+	}
+	hr{
+		background: rgb(3, 184, 3);
+		height: 5px;
+		width: 100px;
+	
+	}
+	.projects{
+		height: 700px;
+		margin: 5px;
+		display: grid;
+		grid-template-columns: 1fr;
+		row-gap: 2px;
+	}
+	.project_one,.project_two{
+		height: 250px;
+	
+	}
+	.project_one img,.project_two img{
+		height: 250px;
+		width: 250px;
+	
+	}
+	.email form{
+		font-size: 20px;
+		overflow: hidden;
+		justify-content: center;
+		display: inline-block;
+		margin-left: 30px;
+		margin: 0;
+		padding: 10px;
+		background: rgb(20, 19, 19);
+		color: white;
+		text-align: center;
+	}
+	.email div{
+		padding: 20px;
+	}
+	
+	.email input{
+		width: 150px;
+		height: 30px;
+	}
+	div textarea{
+		height: 150px;
+		width: 150px;
+	}
+	div button{
+		height: 30px;
+		width: 70px;
+		background: #3d3d3d;
+		border: solid #3d3d3d;
+	}
+	div button:hover{
+		background: #8a7373;
+	 }
+	
+
+}
 
 
-/* @media (max-width:1281px) and (max-width:1025px) and (max-width:1848px){ */
+
+
+@media screen and (min-width:769px) and (max-width:1024px){
+	html,body{
+		overflow-x: hidden;
+		margin: 0;
+		padding: 0;
+		font-size: 10px;
+	
+	  }
+	path{
+		width: 30%;
+	}
+	  .top{
+		height: 100vh;
+		width: 100%;
+		text-align: center;
+		object-fit: cover;
+		background-repeat: no-repeat;
+		background-size: contain;
+		font-family: "Poppins", sans-serif;
+		/* overflow: hidden; */
+	  }
+
+	.top .text{
+		text-decoration: none;
+		color: white;
+		position: relative;
+		top: 280px;
+		font-size: 20px;
+		font-weight: 100;
+		height: 300px;
+		width: 300px;
+		margin: 20px;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.paragraph{
+		background: #302f2f;
+		font-size: 20px;
+		font-weight: 50px;
+		margin: 0px;
+	
+	}
+	.paragraph .profile-details{
+		height: 400px;
+		font-size: 15px;
+		font-weight: 30px;
+		padding: 30px;
+		padding-top: 10px;
+
+	
+	
+	}
+	.paragraph .profile-details img{
+		height: 200px;
+		width: 200px;
+		float: left;
+		margin-left: 10px;
+		border-radius: 150px;}
+	.profile-details .resume{
+		height: 40px;
+		width: 70px;
+		float: right;
+		margin-top: 0;
+		margin-right: 10px;
+		font-size: 10px;
+	}
+	.background{
+		background:white;
+		height: auto;
+	
+	}
+	.education{
+		margin: 70px;
+		color: black;
+		font-size: 20px;
+		font-weight: 100;
+		text-decoration: none;
+	
+	}
+	hr{
+		background: rgb(3, 184, 3);
+		height: 5px;
+		width: 100px;
+	
+	}
+	.projects{
+		height: auto;
+		margin: 5px;
+		display: grid;
+		grid-template-columns: 1fr;
+		row-gap: 2px;
+	}
+	.project_one,.project_two{
+		height: 200px;
+
+	
+	}
+	.project_one img,.project_two img{
+		height: 250px;
+		width: 250px;
+	
+	}
+	.email form{
+		font-size: 20px;
+		overflow: hidden;
+		justify-content: center;
+		display: inline-block;
+		margin-left: 30px;
+		margin: 0;
+		padding: 10px;
+		background: rgb(20, 19, 19);
+		color: white;
+		text-align: center;
+	}
+	.email div{
+		padding: 20px;
+	}
+	
+	.email input{
+		width: 150px;
+		height: 30px;
+	}
+	div textarea{
+		height: 150px;
+		width: 150px;
+	}
+	div button{
+		height: 30px;
+		width: 70px;
+		background: #3d3d3d;
+		border: solid #3d3d3d;
+	}
+	div button:hover{
+		background: #8a7373;
+	 }
+	
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+	*{
+		margin: 0;
+		box-sizing: border-box;
+		font-family: "Poppins", sans-serif;
+	
+	}
+	html,body{	
+		overflow-x: hidden;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	
+	}
+	.top{
+		height: 90vh;
+		background:url(andbg.jpg);
+		background-repeat: no-repeat;	
+		object-fit: cover;
+		background-position: center;
+		background-size: cover;
+		box-sizing: border-box;
+		width: 100%;
+		top: 0;
+	
+	}
+	.topnav a{
+		overflow: hidden;
+		float: right;
+		display: block;
+		padding: 16px 16px;
+		font-size: 22px;
+		color: white;
+		font-weight: 50;
+		text-align: center;
+		text-decoration: none;
+		border-bottom: 3px solid transparent;
+	
+	
+	}
+	
+	.closebtn,.openbtn{
+		visibility: hidden;
+	
+	}
+	.topnav a:hover{
+		color: white;
+		border-bottom: 3px solid red;
+	}
+	.center{
+		float: left;
+		clear: left;
+		text-align: center;
+		color: white;
+		font-size: 12px;
+	}
+	
+	.text{
+		top: 300px;
+		position: absolute;
+		font-size: 50px;
+		font-weight: 70px;
+		margin-left: 500px;
+		color: white;
+		overflow-wrap: break-word;
+		word-wrap: break-word;}
+	.text img{
+		height: 70px;
+		width: 70px;
+	}
+	
+	
+	.empty{
+		padding: 10px;
+		margin: 20px;
+		background: white;
+		height: auto;
+		text-align: center;
+		justify-content: center;
+		font-size: 30px;
+		font-style: 20px;
+		color: #000;
+	}
+	.empty div{
+		padding: 40px;
+	
+	}
+	.paragraph{
+		background: #302f2f;
+		margin: 0px;
+	
+	}
+	.paragraph .profile-details{
+		height: 300px;
+		font-size: 12px;
+		font-weight: 8px;
+		padding: 30px;
+		padding-top: 30px;
+
+	
+	
+	}
+	.paragraph .profile-details img{
+		height: 200px;
+		width: 200px;
+		float: left;
+		margin-left: 10px;
+		border-radius: 150px;}
+	.profile-details .resume{
+		height: 40px;
+		width: auto;
+		float: right;
+		margin-top: 0;
+		margin-right: 10px;
+		font-size: 10px;
+	}
+	.pdf{
+		color: #8d8484;
+		font-size: 20px;
+		font-weight: 20px;
+		float: left;
+		padding: 0px;
+		margin: 30px;
+	}
+	.pdf:hover{
+		background: white;
+		color: black;
+	}
+	.background{
+		background:white;
+		height: auto;
+	
+	}
+	.education{
+		margin: 50px;
+		text-decoration: none;
+	}
+	hr{
+		background: rgb(3, 184, 3);
+		height: 5px;
+		width: 120px;
+	
+	}
+	.projects{
+		background: #cab3b3;
+		color: #807777;
+		height: 900px;
+	}
+	
+	.contacts{
+		height: 500px;
+		padding: 30px;
+	}
+	.project_two,.project_one{
+		width: 300px;
+		height: 400px;
+		padding: 20px;
+	
+	}
+	
+	.project_one a,.project_two a{
+		text-decoration: none;
+		padding: 5px;
+		margin: 10px;
+	}
+	.project_two img,.project_one img{
+		height: 500px;
+		/* width: 350px; */
+		padding: 20px;
+		margin: 10px;
+	}
+	.email{
+		align-items: center;
+		font-size: 20px;
+		margin: 0;
+		padding: 20px;
+		background: rgb(20, 19, 19);
+		color: white;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	.email form{
+		font-size: 20px;
+		height: auto;
+		width: auto;
+		overflow: hidden;
+		justify-content: center;
+		display: inline-block;
+		border: 1px solid white;
+		margin-left: 30px;
+		margin: 0;
+		padding: 0 10px;
+		background: rgb(20, 19, 19);
+		color: white;
+		text-align: center;
+	}
+	.email div{
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	
+	.email input{
+		width: 350px;
+		height: 70px;
+	}
+	div textarea{
+		height: 400px;
+		width: 400px;
+	}
+	div button{
+		height: 70px;
+		width: 250px;
+		font-size: 16px;
+		padding: 10px;
+		margin: 10px;
+		background: #3d3d3d;
+		border: solid #3d3d3d;
+	}
+	div button:hover{
+		background: #8a7373;
+	 }
+	}
+@media screen and (min-width:1201px){
+	*{
+		margin: 0;
+		box-sizing: border-box;
+		font-family: "Poppins", sans-serif;
+	
+	}
+	html,body{	
+		overflow-x: hidden;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	
+	}
+	.top{
+		height: 90vh;
+		background:url(andbg.jpg);
+		background-repeat: no-repeat;	
+		object-fit: cover;
+		background-position: center;
+		background-size: cover;
+		box-sizing: border-box;
+		width: 100%;
+		top: 0;
+	
+	}
+	.topnav a{
+		overflow: hidden;
+		float: right;
+		display: block;
+		padding: 16px 16px;
+		font-size: 22px;
+		color: white;
+		font-weight: 50;
+		text-align: center;
+		text-decoration: none;
+		border-bottom: 3px solid transparent;
+	
+	
+	}
+	
+	.closebtn,.openbtn{
+		visibility: hidden;
+	
+	}
+	.topnav a:hover{
+		color: white;
+		border-bottom: 3px solid red;
+	}
+	.center{
+		float: left;
+		clear: left;
+		text-align: center;
+		color: white;
+		font-size: 12px;
+	}
+	
+	.text{
+		top: 300px;
+		position: absolute;
+		font-size: 50px;
+		font-weight: 70px;
+		margin-left: 500px;
+		color: white;
+		overflow-wrap: break-word;
+		word-wrap: break-word;}
+	.text img{
+		height: 70px;
+		width: 70px;
+	}
+	.paragraph{
+		height: auto;
+		background: #302f2f;
+		text-align: center;
+		font-size: 10px;
+		font-weight: 10px;
+	
+	}
+	
+	.empty{
+		padding: 10px;
+		margin: 20px;
+		background: white;
+		height: auto;
+		text-align: center;
+		justify-content: center;
+		font-size: 30px;
+		font-style: 20px;
+		color: #000;
+	}
+	.empty div{
+		padding: 40px;
+	
+	}
+	.pdf{
+		color: #8d8484;
+		font-size: 20px;
+		font-weight: 20px;
+		float: left;
+		padding: 0px;
+		margin: 30px;
+	}
+	.pdf:hover{
+		background: white;
+		color: black;
+	}
+	.profile-details img{
+		border-radius: 300px;
+		margin-left: 80px;
+		height: 400px;
+		width: 400px;
+		padding: 10px;
+		float: left;
+	}
+	.profile-details{
+		height: 500px;
+		float: right;
+		background: #302f2f;
+		color: white;
+		font-size: 20px;
+		font-weight: 300px;
+		padding-top: 50px;
+	
+	}
+	.profile-details .resume{
+		height: auto;
+		width: auto;
+	
+	}
+	.background{
+		background:white;
+		height: auto;
+	
+	}
+	.education{
+		margin: 50px;
+		text-decoration: none;
+	}
+	hr{
+		background: rgb(3, 184, 3);
+		height: 5px;
+		width: 120px;
+	
+	}
+	.projects{
+		background: #cab3b3;
+		margin: 20px;
+		color: #3a3737;
+		height:300px;
+		display: flex;
+		flex-direction: row;
+
+
+	}
+	
+	
+	
+	.project_one,.project_two{
+		height: 250px;
+		border: 1px solid black;
+		flex: 50%;
+		padding: 20px;
+	
+	}
+
+	.project_one a,.project_two a{
+		text-decoration: none;
+		
+	}
+	.project_two img,.project_one img{
+		height: 300px;
+		/* width: 350px; */
+		padding: 20px;
+	}
+	.email{
+		align-items: center;
+		font-size: 20px;
+		margin: 0;
+		padding: 20px;
+		background: rgb(20, 19, 19);
+		color: white;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	.email form{
+		font-size: 20px;
+		height: auto;
+		width: auto;
+		overflow: hidden;
+		justify-content: center;
+		display: inline-block;
+		border: 1px solid white;
+		margin-left: 30px;
+		margin: 0;
+		padding: 0 10px;
+		background: rgb(20, 19, 19);
+		color: white;
+		text-align: center;
+	}
+	.email div{
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	
+	.email input{
+		width: 350px;
+		height: 70px;
+	}
+	div textarea{
+		height: 400px;
+		width: 400px;
+	}
+	div button{
+		height: 70px;
+		width: 250px;
+		font-size: 16px;
+		padding: 10px;
+		margin: 10px;
+		background: #3d3d3d;
+		border: solid #3d3d3d;
+	}
+	div button:hover{
+		background: #8a7373;
+	 }
+	}	
+	
+
+	
+	
+	
+	/* @media (max-width:1281px) and (max-width:1025px) and (max-width:1848px){ */
 *{
 	margin: 0;
 	box-sizing: border-box;
@@ -250,6 +988,7 @@ html,body{
 	margin-left: 80px;
 	height: 400px;
 	width: 400px;
+	padding: 10px;
 	float: left;
 }
 .profile-details{
@@ -259,6 +998,11 @@ html,body{
 	color: white;
 	font-size: 20px;
 	font-weight: 300px;
+
+}
+.profile-details .resume{
+	height: auto;
+	width: auto;
 
 }
 .background{
